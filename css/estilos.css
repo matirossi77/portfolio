@@ -266,6 +266,49 @@ footer div, footer a {
     font-weight: 300;
 }
 
+#experiencia-laboral h2 {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+#experiencia-laboral h3 {
+    color: #6A6A6A;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#experiencia-laboral h4 {
+    font-size: 17px;
+}
+
+#experiencia-laboral h5 {
+    color: #6A6A6A;
+    font-size: 14px;
+}
+
+
+
+
+#formacion-academica h2 {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+#formacion-academica h3 {
+    color: #6A6A6A;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#formacion-academica h4 {
+    font-size: 17px;
+}
+
+#formacion-academica h5 {
+    color: #6A6A6A;
+    font-size: 14px;
+}
+
 
 
 
