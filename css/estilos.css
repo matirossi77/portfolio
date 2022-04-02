@@ -310,6 +310,29 @@ footer div, footer a {
 }
 
 
+#sobre-mi .fa-github {
+    color: #E20000;
+}
+
+#sobre-mi .fa-github:hover {
+    color: #E20000;
+}
+
+#sobre-mi .link {
+    font-weight: 300;
+    color: #E20000;
+}
+
+#sobre-mi .link:hover {
+    background-color: #370a6d;
+    color: white;
+}
+
+#sobre-mi .sponsor {
+    font-weight: 300;
+    color: #E20000;
+}
+
 
 
 
