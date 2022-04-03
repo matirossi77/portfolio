@@ -337,6 +337,48 @@ footer div, footer a {
     background-color: #eeeeee;
 }
 
+#otros .card-idioma {
+    background-color:white;
+    border-radius: 10px;
+}
+
+#otros .card-icono {
+    background-color:#370a6d; 
+    height: 160px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#otros i {
+    color: white;
+    font-size: 60px;
+}
+
+#otros h2 {
+    font-size: 16px;
+}
+
+#otros .lista-idiomas {
+    padding: 36px 70px;
+}
+
+#otros .lista-idiomas ul {
+    padding: 0;
+    list-style: none;
+    font-size: 14px;
+}
+@media (max-width:750px) {
+
+    #otros .lista-idiomas {
+        padding: 25px 30px;
+    }
+    
+}
+
+
+
 
 
 
