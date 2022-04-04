@@ -269,6 +269,15 @@ footer div, footer a {
 #experiencia-laboral h2 {
     font-weight: 400;
     font-size: 24px;
+    color: #370a6d;
+}
+
+#experiencia-laboral img {
+    filter: grayscale(100%);
+}
+
+#experiencia-laboral img:hover {
+    filter: grayscale(0);
 }
 
 #experiencia-laboral h3 {
@@ -279,6 +288,7 @@ footer div, footer a {
 
 #experiencia-laboral h4 {
     font-size: 17px;
+    color: #370a6d;
 }
 
 #experiencia-laboral h5 {
@@ -287,11 +297,19 @@ footer div, footer a {
 }
 
 
+#formacion-academica  img {
+    filter: grayscale(100%);
+}
+
+#formacion-academica  img:hover {
+    filter: grayscale(0);
+}
 
 
 #formacion-academica h2 {
     font-weight: 400;
     font-size: 24px;
+    color: #E20000;
 }
 
 #formacion-academica h3 {
@@ -302,6 +320,7 @@ footer div, footer a {
 
 #formacion-academica h4 {
     font-size: 17px;
+    color: #E20000;
 }
 
 #formacion-academica h5 {
@@ -418,6 +437,18 @@ footer div, footer a {
     color: white;
     font-weight: 600;
     font-size: 17px;
+    margin: 0 auto;
+}
+
+#index .btn {
+    color: #370a6d;
+    background-color: white;
+    border-radius: 20px;
+}
+
+#index .btn:hover {
+    background-color: #370a6d;
+    color: white;
 }
 
 @keyframes typing {
