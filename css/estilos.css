@@ -339,6 +339,7 @@ footer div, footer a {
 
 #otros .card-idioma, .card-hobbie {
     border-radius: 10px;
+    width: 530px;
 }
 
 #otros .card-icono {
@@ -359,22 +360,28 @@ footer div, footer a {
     font-size: 16px;
 }
 
-#otros .lista-idiomas {
-    padding: 36px 70px;
-}
-
 #otros .lista-idiomas ul {
     padding: 0;
     list-style: none;
     font-size: 14px;
 }
+
+#otros .centrar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 @media (max-width:750px) {
 
-    #otros .lista-idiomas {
-        padding: 25px 30px;
+    #otros .centrar {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
     }
     
 }
+
 
 
 
