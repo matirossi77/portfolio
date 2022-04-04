@@ -440,13 +440,13 @@ footer div, footer a {
     margin: 0 auto;
 }
 
-#index .btn {
+#index .btn-proyectos {
     color: #370a6d;
     background-color: white;
     border-radius: 20px;
 }
 
-#index .btn:hover {
+#index .btn-proyectos:hover {
     background-color: #370a6d;
     color: white;
 }
