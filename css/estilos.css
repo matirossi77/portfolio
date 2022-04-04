@@ -337,8 +337,7 @@ footer div, footer a {
     background-color: #eeeeee;
 }
 
-#otros .card-idioma {
-    background-color:white;
+#otros .card-idioma, .card-hobbie {
     border-radius: 10px;
 }
 
