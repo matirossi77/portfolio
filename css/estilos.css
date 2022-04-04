@@ -397,10 +397,46 @@ footer div, footer a {
     background-repeat: no-repeat;
 }
 
+
+#index .imagen-cohete img {
+    height: 400px;
+    transition: transform .2s;
+}
+
+#index .imagen-cohete img:hover {
+    transform: scale(1.1);     
+}
+
+#index .mensaje {
+    display: block;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 21ch;
+    animation: typing 2s steps(21),
+    blink .5s infinite step-end alternate;
+    overflow: hidden;
+    color: white;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+@keyframes typing {
+    from {width: 0}
+}
+
+@keyframes blink {
+    50% {border-color: transparent}
+}
+
+
 @media (max-width:750px) {
 
     #index {
         background-image: url("../images/fondo-proyectos.png");
+    }
+
+    #index .mensaje {
+        color: black;
     }
 }
 
