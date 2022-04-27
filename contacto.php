@@ -1,3 +1,9 @@
+<?php 
+
+$pg = "contacto";
+
+?>
+
 <!DOCTYPE html>
 <html lang="es">
   <head>
@@ -13,47 +19,8 @@
   </head>
 
   <body id="contacto">
-    <header>
-      <nav class="navbar navbar-expand-md mb-4">
-        <div class="container">
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarCollapse"
-            aria-controls="navbarCollapse"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <i class="fas fa-bars"></i>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav me-auto mb-2 mb-md-0 mt-2">
-              <li class="nav-item">
-                <a class="nav-link px-4 py-1" href="index.html">Inicio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link px-4 py-1" href="sobre-mi.html">Sobre mí</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link px-4 py-1" href="proyectos.html"
-                  >Proyectos</a
-                >
-              </li>
-              <li class="nav-item active" aria-current="page">
-                <a class="nav-link px-4 py-1" href="contacto.html">Contacto</a>
-              </li>
-            </ul>
-            <div class="d-flex">
-              <a href="" class="btn btn-outline-success btn-rojo" type="submit">
-                Descargar mi CV
-                <i class="fa-solid fa-download"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-      </nav>
-    </header>
+
+  <?php include_once("header.php"); ?>
 
     <main class="container">
       <div class="row">
@@ -126,34 +93,6 @@
       </div>
     </main>
 
-    <footer class="container">
-      <div class="row mt-sm-5 mt-5">
-        <div class="col-sm-3 col-12">
-          <a href="https://github.com/" target="_blank"
-            ><i class="fa-brands fa-github"></i
-          ></a>
-          <a href="https://www.linkedin.com/feed/" target="_blank"
-            ><i class="fa-brands fa-linkedin-in"></i
-          ></a>
-        </div>
+    <?php include_once("footer.php"); ?>
 
-        <div class="col-sm-3 col-12 mt-1 sponsor">
-          Sponsor <a href="https://depcsuite.com/" class="link">DePC Suite</a>
-        </div>
-        <div class="col-sm-3 col-12 mt-1">
-          <a href="mailto:matirossi77@gmail.com" class="link"
-            >matirossi77@gmail.com</a
-          >
-        </div>
-      </div>
-    </footer>
-
-    <div class="whatsapp pt-3 pb-4 px-3">
-      <a
-        href="https://api.whatsapp.com/send?phone=541163058996&text=*QUIERO*%20MAS%20INFO"
-      >
-        <i class="fa-brands fa-whatsapp"></i
-      ></a>
-    </div>
-  </body>
 </html>
