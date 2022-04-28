@@ -39,7 +39,7 @@ $pg = "inicio";
       </div>
       <div class="row">
         <div class="col-12 text-center mt-4 pt-2">
-          <a href="proyectos.html" class="btn btn-proyectos shadow">Conoce mis proyectos</a>
+          <a href="proyectos.php" class="btn btn-proyectos shadow">Conoce mis proyectos</a>
         </div>
       </div>
     </div>
